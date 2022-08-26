@@ -1,0 +1,26 @@
+.btn {
+    @include btn;
+    &-section {
+        width: 213px;
+        height: 60px;
+        font-size: 16px;
+        background: linear-gradient(235deg, #5373FD 60%, #486BFE 48%);
+    }
+    &-form {
+        position: absolute;
+        left: 503px;
+        top: 0;
+        padding: 16px 24px;
+        margin: 4px 5px 4px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &::before {
+            content: '';
+            display: inline-block;
+            background: url(../icons/search2.png) no-repeat;
+            width: 16px;
+            height: 16px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@mixin logo {
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@mixin descr {
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: 300;
+    font-size: $fz-primary;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+@mixin btn {
+    border: none;
+    width: 139px;
+    height: 52px;
+    background: $primary;
+    font-family: $font-secondary;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.tourist {
+    min-height: 680px;
+    padding: 120px 0 180px;
+    background: url(../image/BG.jpg) center center/cover no-repeat;
+    &__wrapper {
+        width: 1320px;
+        display: flex;
+        margin-top: 60px;
+    }
+    &__block {
+        background: $secondary-black;
+        &-descr {
+            margin: 0 65px 48px 60px;
+            p::before {
+                content: '';
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background: url(../icons/quote-left.png) no-repeat;
+                margin-right: 14px;
+            }
+        }
+    }
+}

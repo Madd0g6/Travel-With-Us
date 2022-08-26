@@ -1,0 +1,16 @@
+.steps {
+    min-height: 306px;
+    background: $secondary-black;
+    &__wrapper {
+        padding: 105px 0 60px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image: url(../image/Line.png);
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+    }
+    &__block {
+        text-align: center;
+    }
+}

@@ -1,0 +1,17 @@
+.booknow {
+    min-height: 684px;
+    padding: 220px 0 120px;
+    background: url(../image/render.jpg) center center/cover no-repeat;
+    &__wrapper {
+        background: rgba(35, 35, 35, 0.9);
+        width: 638px;
+        height: 344px;
+        display: flex;
+    }
+    &__block {
+        display: flex;
+        padding: 44px 32px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}

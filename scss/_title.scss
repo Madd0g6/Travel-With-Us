@@ -1,0 +1,58 @@
+.title {
+    color: #FFFFFF;
+    &_fz20bk {
+        font-family: $font-primary;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.1em;
+    }
+    &_fw20bk {
+        font-family: $font-primary;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-transform: uppercase;
+    }
+    &_fz22header {
+        font-family: $font-primary;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: 0.31em;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    &_fz22footer {
+        margin: 20px 0;
+        font-family: $font-primary;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2em;
+    }
+    &_fz36 {
+        font-family: $font-secondary;
+        font-weight: 400;
+        font-size: $fz-secondary;
+        line-height: 40px;
+        text-transform: capitalize;
+    }
+    &_fz36tourist {
+        font-family: $font-secondary;
+        font-weight: 400;
+        font-size: $fz-secondary;
+        line-height: 40px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    &_fz20tourist {
+        font-family: $font-primary;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-transform: uppercase;
+        margin: 48px 0 16px 60px;
+    }
+
+}

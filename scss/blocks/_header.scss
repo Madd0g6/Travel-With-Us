@@ -1,0 +1,37 @@
+.header {
+    position: relative;
+    min-height: 892px;
+    margin: 0 auto;
+    background: url(../image/HeaderBackground.jpg) center center/cover no-repeat;
+    &__wrapper {
+        position: absolute;
+        top: 295px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__form {
+        position: relative;
+        width: 647px;
+        height: 60px;
+        background-color: #fff;
+    }
+    &__scroll {
+        position: absolute;
+        bottom: 120px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+} 
+
+h1 {
+    margin: 0;
+    margin-bottom: 8px;
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}

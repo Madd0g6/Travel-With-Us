@@ -1,0 +1,22 @@
+.footer {
+    min-height: 268px;
+    background: #000000;
+    text-align: center;
+    padding: 70px 0;
+    &__subtitle {
+        margin: 20px 0;
+        font-family: $font-primary;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2em;
+        color: #FFFFFF;
+    }
+    &__items {
+        display: flex;
+        width: 275px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

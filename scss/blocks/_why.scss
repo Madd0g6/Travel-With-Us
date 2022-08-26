@@ -1,0 +1,24 @@
+.why {
+    min-height: 704px;
+    padding: 124px 0;
+    background: url(../image/WhyBackground.jpg) center center/cover no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__descr {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 648px;
+        height: 324px;
+    }
+    &__images {
+        width: 424px;
+        margin-right: 112px;
+        &-possition2 {
+            padding: 16px 0 0 74px;
+        }
+    }
+}
