@@ -445,7 +445,7 @@ h1 {
 
 @media (max-width: 1360px) {
   .container {
-    width: 1140px;
+    max-width: 960px;
   }
   .header {
     min-height: 862px;
@@ -483,7 +483,7 @@ h1 {
     min-height: 708px;
   }
   .tourist__wrapper {
-    width: 1140px;
+    width: 100%;
   }
   .tourist__wrapper img {
     width: 380px;
@@ -496,7 +496,7 @@ h1 {
 }
 @media (max-width: 1024px) {
   .container {
-    width: 960px;
+    max-width: 720px;
   }
   .why__descr {
     width: 550px;
@@ -523,7 +523,7 @@ h1 {
     min-height: 736px;
   }
   .tourist__wrapper {
-    width: 960px;
+    width: 100%;
   }
   .tourist__wrapper img {
     width: 320px;
@@ -531,7 +531,7 @@ h1 {
 }
 @media (max-width: 768px) {
   .container {
-    width: 720px;
+    max-width: 540px;
   }
   .navigation {
     min-height: 136px;
@@ -570,21 +570,26 @@ h1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
     width: 100%;
   }
   .why__images-possition2 {
-    padding: 0 24px 0 0;
+    padding: 0;
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+    width: 48%;
   }
   .why__images-possition1 {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+    width: 48%;
   }
   .steps {
     min-height: 658px;
@@ -641,7 +646,7 @@ h1 {
 }
 @media (max-width: 576px) {
   .container {
-    width: 540px;
+    width: 100%;
   }
   .header__form {
     width: 540px;
@@ -726,10 +731,14 @@ h1 {
   .why {
     min-height: 630px;
   }
+  .why__images {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .why__images-possition2 {
     width: 48%;
     padding: 0;
-    margin-right: 24px;
   }
   .why__images-possition1 {
     width: 48%;
