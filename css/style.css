@@ -109,7 +109,7 @@ input[type=text] {
 }
 .btn-form {
   position: absolute;
-  left: 503px;
+  right: 0;
   top: 0;
   padding: 16px 24px;
   margin: 4px 5px 4px 0;
@@ -498,6 +498,9 @@ h1 {
   .container {
     max-width: 720px;
   }
+  .navigation__menu-links {
+    font-size: 12px;
+  }
   .why__descr {
     width: 550px;
   }
@@ -532,6 +535,13 @@ h1 {
 @media (max-width: 768px) {
   .container {
     max-width: 540px;
+  }
+  .header__wrapper {
+    width: 90%;
+  }
+  .header__form {
+    width: 90%;
+    margin: 0 auto;
   }
   .navigation {
     min-height: 136px;
@@ -648,18 +658,34 @@ h1 {
   .container {
     width: 100%;
   }
-  .header__form {
-    width: 540px;
+  .header__wrapper {
+    width: 90%;
   }
-  .btn-form {
-    left: 397px;
+  .header__form {
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+  }
+  .header__form:before {
+    width: 15px;
+    height: 15px;
+  }
+  .header__form .btn-form {
+    height: 42px;
+    width: 110px;
+    font-size: 10px;
+    margin: 4px 2px 4px 0;
+  }
+  .header__form input {
+    font-size: 10px;
+    padding: 0 0 0 15px;
   }
   .navigation {
     min-height: 84px;
     position: relative;
   }
   .navigation .container {
-    width: 576px;
+    width: 100%;
   }
   .navigation__wrapper {
     height: 100%;
@@ -732,16 +758,15 @@ h1 {
     min-height: 630px;
   }
   .why__images {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .why__images-possition2 {
-    width: 48%;
+    width: 45%;
     padding: 0;
   }
   .why__images-possition1 {
-    width: 48%;
+    width: 45%;
   }
   .booknow {
     min-height: 616px;
