@@ -6,6 +6,9 @@
         width: 1320px;
         display: flex;
         margin-top: 60px;
+        img {
+            object-fit: cover;
+        }
     }
     &__block {
         background: $secondary-black;

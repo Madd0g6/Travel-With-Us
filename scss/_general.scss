@@ -11,16 +11,16 @@
 
 .description {
     @include descr;
+    &_margin {
+        margin-bottom: 24px;
+    }
     &_header {
         font-family: $font-primary;
         font-weight: 400;
         font-size: 14px;
         letter-spacing: 0.2em;
-        color: #FFFFFF;
+        color: $secondary-white;
         margin-bottom: 4px;
-    }
-    &_possition {
-        text-align: center;
     }
 }
 
@@ -61,4 +61,9 @@ input[type="text"] {
 
 .gamburger {
     display: none;
+}
+
+
+.svg_hover:hover {
+    fill: blue;
 }

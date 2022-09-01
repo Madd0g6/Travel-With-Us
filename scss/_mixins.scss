@@ -16,7 +16,7 @@
     font-size: $fz-primary;
     line-height: 28px;
     letter-spacing: 0.1em;
-    color: #FFFFFF;
+    color: $secondary-white;
 }
 
 @mixin btn {
@@ -30,6 +30,6 @@
     line-height: 20px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: $secondary-white;
     cursor: pointer;
 }

@@ -9,11 +9,13 @@
         &__descr {
             width: 558px;
         }
-        &__images {
+        &__image {
             margin-right: 0;
-            width: 461px;
-            &-possition2 {
-                padding: 16px 0 0 111px;
+            width: 400px;
+            height: 100%;
+            margin-left: 25px;
+            &-right {
+                padding: 13px 0 0 30px;
             }
         }
     }
@@ -28,14 +30,14 @@
         min-height: 712px;
         &__wrapper {
             width: 558px;
-            height: 372px;
+            height: 100%;
         }
     }
     .booknow2 {
         min-height: 712px;
         &__wrapper {
             width: 558px;
-            height: 372px;
+            height: 100%;
         }
     }
     .tourist {
@@ -70,13 +72,18 @@
     .why {
         &__descr {
             width: 550px;
+            height: 100%;
         }
-        &__images {
+        &__image {
             width: 386px;
-            &-possition2 {
+            height: 100%;
+            &-right{
                 padding: 16px 0 0 36px;
             }
         }
+    }
+    .description_possition {
+        margin: 20px 0;
     }
     .steps {
         &__wrapper {
@@ -144,20 +151,23 @@
             align-items: center;
             margin-top: 32px;
         }
-        &__images {
+        &__image {
             display: flex;
             justify-content: space-between;
             order: 1;
             width: 100%;
-            &-possition2 {
+            &-right {
                 padding: 0;
                 order: 1;
                 width: 48%;
             }
-            &-possition1 {
+            &-left {
                 order: 2;
                 width: 48%;
             }
+        }
+        .description_possition {
+            text-align: center;
         }
     }
     .steps {
@@ -179,9 +189,6 @@
             width: 100%;
             height: 100%;
         }
-        &__block {
-            gap: 20px;
-        }
     }
     .booknow2 {
         min-height: 558px;
@@ -189,9 +196,6 @@
         &__wrapper {
             width: 100%;
             height: 100%;
-        }
-        &__block {
-            gap: 20px;
         }
     }
     .tourist {
@@ -234,9 +238,12 @@
             }
             input {
                 font-size: 9px;
-                padding: 0 0 0 15px;
+                padding: 0 0 0 10px;
             }
         }
+    }
+    .title_mediumHeader {
+        font-size: 20px;
     }
     .navigation {
         min-height: 84px;
@@ -279,9 +286,10 @@
         right: 18px;
         top: 30px;
         width: 40px;
+        cursor: pointer;
         span {
             display: block;
-            background: #FFFFFF;
+            background: $secondary-white;
             width: 100%;
             height: 2px;
             margin-bottom: 6px;
@@ -291,7 +299,7 @@
             span {
                 &:nth-child(1) {
                     margin: 0;
-                    transform: translateY(3px) rotate(-45deg);
+                    transform: translateY(5px) rotate(-45deg);
                 }
                 &:nth-child(2) {
                     display: none;
@@ -310,14 +318,14 @@
     }
     .why {
         min-height: 630px;
-        &__images {
+        &__image {
             justify-content: space-around;
-            &-possition2 {
+            &-right {
                 width: 45%;
                 padding: 0;
                 
             }
-            &-possition1 {
+            &-left {
                 width: 45%;
             }
         }
@@ -335,5 +343,8 @@
                 margin: 0 57px 48px 60px;
             }
         }
+    }
+    .title_largeTourist {
+        font-size: 32px;
     }
 }
